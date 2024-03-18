@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @keyframes sale {
+            50%  {color:rgb(132, 0, 255) }
+        }
+        .headline{
+            padding: 10px;
+            background-color: aqua;
+            border-radius: 5px 5px 20px 20px;
+            font-style: oblique;
+            text-align: center;
+            text-decoration-line: underline;
+            border-bottom-style: dashed;
+            animation: sale;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
+        .offers{
+            padding: 10px;
+            border-style: ridge;
+            background-color: rgb(177, 225, 215);
+            display: inline-flex;
+        }
+        .offers-name{
+            margin-top: 1ch;
+            border-radius: 1ch 1ch .2ch .2ch;
+            font: icon;
+            color: white;
+            background-color: rgb(95, 102, 158);
+            text-align: center;
+        }
+        .item-name{
+            border-radius: 2ch 2ch .5ch .5ch ;
+            background-color: rgb(125, 170, 146);
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .sale-item{
+            padding: 1.5ch;
+            margin: .2ch;
+            border-radius: 1ch;
+            background-color: rgb(194, 251, 239);
+        }
+        .price{
+            padding: .2ch;
+        }
+        button{
+            position: relative;
+            margin: 1ch 1ch;
+            cursor: pointer;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <title>Shop</title>
+</head>
+<body>
+    <div class="headline">
+        Free gift on orders $75+. SHOP NOW
+    </div>
+    <div class="offers-name">
+        Toys
+    </div>
+    <div class="offers">
+        <div class="sale-item">
+            <div class="item-name">
+                Fluxons 
+            </div>
+            <img src="https://d1jqecz1iy566e.cloudfront.net/large/ffx006.jpg" width="100" height= "130" >
+            <div class="price">
+                price: $20
+                <button>
+                    Buy
+                </button>
+            </div>
+        </div>
+        <div class="sale-item">
+            <div class="item-name">
+                Leonardo Trebuchet 
+            </div>
+            <img src="https://d1jqecz1iy566e.cloudfront.net/large/fb606.jpg" width="100" height= "130" >
+            <div class="price">
+                price: $19.85
+                <button>
+                    Buy
+                </button>
+            </div>
+        </div>
+        <div class="sale-item">
+            <div class="item-name">
+                 Lego
+            </div>
+            <img src="https://d1jqecz1iy566e.cloudfront.net/large/ls2423.jpg" width="100" height= "130" >
+            <div class="price">
+                price: $20
+                <button>
+                    Buy
+                </button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="offers">
+        <div class="sale-item">
+            <div class="item-name text">
+                Twerking Cactus 
+            </div>
+            <img src="https://m.media-amazon.com/images/I/71cbQAJfp-L._AC_SL1500_.jpg" width="100" height= "130" >
+            <div class="price">
+                price: $10
+                <button>
+                    Buy
+                </button>
+            </div>
+        </div>
+        <div class="sale-item">
+            <div class="item-name">
+                Rubix cube 
+            </div>
+            <img src="https://m.media-amazon.com/images/I/61wFcn4BmHL._AC_SL1280_.jpg" width="150" >
+            <div class="price">
+                price: 
+                <c style="text-decoration: line-through;color: grey;">
+                $10
+                </c>
+                $5
+                <button>
+                    Buy
+                </button>
+            </div>
+        </div>
+        <div class="sale-item">
+            <div class="item-name">
+                Scrabble
+            </div>
+            <img src="https://d1jqecz1iy566e.cloudfront.net/large/wso001.jpg" width="150" >
+            <div class="price">
+                price: 
+                <c style="text-decoration: line-through;color: grey;">
+                $25
+                </c>
+                $18
+                <button>
+                    Buy
+                </button>
+            </div>
+        </div>
+        
+        
+        
+        
+    </div>
+</body>
+</html>
